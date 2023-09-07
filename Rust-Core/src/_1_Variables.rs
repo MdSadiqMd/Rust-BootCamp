@@ -8,4 +8,16 @@ fn main(){
     println!("{}",y);
     y=6;
     println!("{}",y);
+
+    /*In the same scope we can create a new variable and assign a value for it */
+    let z=7;
+    println!("{}",z);
+    let z=8;/*Will **Not throw error */
+    println!("{}",z);
+
+    /*Const --> The const variable should be in Upper Case
+            --> It cannot be re-Written as let 
+            --> Should specify the type when defining a const Variable*/
+    const A:u32=9;
+    println!("{}",A);
 }
