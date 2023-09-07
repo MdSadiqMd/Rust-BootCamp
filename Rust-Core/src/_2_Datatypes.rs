@@ -21,4 +21,16 @@ fn main(){
     /*Here we only have one type char */
     let d:char='A';
     println!("{}",d);
+
+    /*Tuples */
+    /*Tuple is immutable in default but we can make them mutable using mut Keyword */
+    let tup:(i32,bool,char)=(1,true,'s');
+    println!("{}",tup.0);
+    println!("{}",tup.1);
+    println!("{}",tup.2);
+
+    /*Arrays */
+    /*Arrays is immutable in default but we can make them mutable using mut Keyword */   
+    let arr:[i32;5]=[1,2,3,4,5];
+    println!("{}",arr[0]);
 }
