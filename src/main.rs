@@ -1,10 +1,12 @@
 // mod variables;
 // mod conditionals;
-mod loops;
+// mod loops;
+mod functions;
 
 fn main() {
     // println!("Hello, world!");
     // variables::main()
     // conditionals::main();
-    loops::main()
+    // loops::main()
+    functions::main()
 }
