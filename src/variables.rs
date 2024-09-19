@@ -27,5 +27,18 @@ pub fn main() {
     // Shadowing in Rust
     let shadow = 10;
     let shadow = 20; // This variable is shadowing the above shadow variable
-    println!("{shadow}") // 20
+    println!("{shadow}"); // 20
+
+    // Arrays
+    let a = [1, 2, 3, 4, 5];
+    // println!("{}", a); // `[{integer}; 5]` doesn't implement `std::fmt::Display`
+    println!("{:?}", a); // format strings you may be able to use `{:?}` (or {:#?} for pretty-print)
+    let b = [10; 5]; // This means [10,10,10,10,10]
+    println!("{:#?}", b);
+
+    // Tuples --> Store data of different Data types
+    let tuple = ("sadiq", 20, true, 3_50_000);
+    let (w, x, y, z) = tuple;
+    println!("{w}, {x}, {y}, {z}"); // or
+    println!("{}, {}, {}, {}", tuple.0, tuple.1, tuple.2, tuple.3)
 }
