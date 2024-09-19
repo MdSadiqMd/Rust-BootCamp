@@ -18,5 +18,14 @@ pub fn main() {
         Some(c) => println!("{}", c),
         None => println!("No char at Index"),
     }
-    println!("{}", char.unwrap()) // If you don't want to handle the undefined in the String (Run Time Exceptions)
+    println!("{}", char.unwrap()); // If you don't want to handle the undefined in the String (Run Time Exceptions)
+
+    // we need to explicitly provide type to a `const` variable but in case of let the rust compiler and rust-analyzer will automatically will assign a type
+    const PI: f64 = 3.14;
+    println!("{PI}");
+
+    // Shadowing in Rust
+    let shadow = 10;
+    let shadow = 20; // This variable is shadowing the above shadow variable
+    println!("{shadow}") // 20
 }
