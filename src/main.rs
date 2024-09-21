@@ -2,7 +2,8 @@
 // mod conditionals;
 // mod loops;
 // mod functions;
-mod ownership;
+// mod ownership;
+mod references_and_borrowings;
 
 fn main() {
     // println!("Hello, world!");
@@ -10,5 +11,6 @@ fn main() {
     // conditionals::main();
     // loops::main();
     // functions::main();
-    ownership::main();
+    // ownership::main();
+    references_and_borrowings::main();
 }
