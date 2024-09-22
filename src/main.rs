@@ -3,7 +3,8 @@
 // mod loops;
 // mod functions;
 // mod ownership;
-mod references_and_borrowings;
+// mod references_and_borrowings;
+mod slice;
 
 fn main() {
     // println!("Hello, world!");
@@ -12,5 +13,6 @@ fn main() {
     // loops::main();
     // functions::main();
     // ownership::main();
-    references_and_borrowings::main();
+    // references_and_borrowings::main();
+    slice::main();
 }
