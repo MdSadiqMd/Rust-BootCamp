@@ -4,7 +4,8 @@
 // mod functions;
 // mod ownership;
 // mod references_and_borrowings;
-mod slice;
+// mod slice;
+mod structs;
 
 fn main() {
     // println!("Hello, world!");
@@ -14,5 +15,6 @@ fn main() {
     // functions::main();
     // ownership::main();
     // references_and_borrowings::main();
-    slice::main();
+    // slice::main();
+    structs::main();
 }
