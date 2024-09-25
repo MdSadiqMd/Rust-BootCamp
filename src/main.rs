@@ -8,7 +8,8 @@
 // mod structs;
 // mod methods;
 // mod enums;
-mod matchs;
+// mod matchs;
+mod if_let;
 
 fn main() {
     // println!("Hello, world!");
@@ -22,5 +23,6 @@ fn main() {
     // structs::main();
     // methods::main();
     // enums::main();
-    matchs::main();
+    // matchs::main();
+    if_let::main();
 }
