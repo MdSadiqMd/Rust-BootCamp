@@ -7,7 +7,8 @@
 // mod slice;
 // mod structs;
 // mod methods;
-mod enums;
+// mod enums;
+mod matchs;
 
 fn main() {
     // println!("Hello, world!");
@@ -20,5 +21,6 @@ fn main() {
     // slice::main();
     // structs::main();
     // methods::main();
-    enums::main();
+    // enums::main();
+    matchs::main();
 }
