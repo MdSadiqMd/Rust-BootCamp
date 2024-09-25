@@ -6,7 +6,8 @@
 // mod references_and_borrowings;
 // mod slice;
 // mod structs;
-mod methods;
+// mod methods;
+mod enums;
 
 fn main() {
     // println!("Hello, world!");
@@ -18,5 +19,6 @@ fn main() {
     // references_and_borrowings::main();
     // slice::main();
     // structs::main();
-    methods::main();
+    // methods::main();
+    enums::main();
 }
