@@ -9,7 +9,8 @@
 // mod methods;
 // mod enums;
 // mod matchs;
-mod if_let;
+// mod if_let;
+mod vector;
 
 fn main() {
     // println!("Hello, world!");
@@ -24,5 +25,6 @@ fn main() {
     // methods::main();
     // enums::main();
     // matchs::main();
-    if_let::main();
+    // if_let::main();
+    vector::main();
 }
