@@ -11,7 +11,8 @@
 // mod matchs;
 // mod if_let;
 // mod vector;
-mod utf8_strings;
+// mod utf8_strings;
+mod hashmap;
 
 fn main() {
     // println!("Hello, world!");
@@ -28,5 +29,6 @@ fn main() {
     // matchs::main();
     // if_let::main();
     // vector::main();
-    utf8_strings::main();
+    // utf8_strings::main();
+    hashmap::main();
 }
