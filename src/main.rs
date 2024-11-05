@@ -13,7 +13,8 @@
 // mod vector;
 // mod utf8_strings;
 // mod hashmap;
-mod panic;
+// mod panic;
+mod generics;
 
 fn main() {
     // println!("Hello, world!");
@@ -32,5 +33,6 @@ fn main() {
     // vector::main();
     // utf8_strings::main();
     // hashmap::main();
-    panic::main();
+    // panic::main();
+    generics::main();
 }
