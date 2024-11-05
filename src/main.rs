@@ -12,7 +12,8 @@
 // mod if_let;
 // mod vector;
 // mod utf8_strings;
-mod hashmap;
+// mod hashmap;
+mod panic;
 
 fn main() {
     // println!("Hello, world!");
@@ -30,5 +31,6 @@ fn main() {
     // if_let::main();
     // vector::main();
     // utf8_strings::main();
-    hashmap::main();
+    // hashmap::main();
+    panic::main();
 }
