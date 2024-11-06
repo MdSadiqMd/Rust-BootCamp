@@ -15,7 +15,8 @@
 // mod hashmap;
 // mod panic;
 // mod generics;
-mod traits;
+// mod traits;
+mod lifetimes;
 
 fn main() {
     // println!("Hello, world!");
@@ -36,5 +37,6 @@ fn main() {
     // hashmap::main();
     // panic::main();
     // generics::main();
-    traits::main();
+    // traits::main();
+    lifetimes::main();
 }
