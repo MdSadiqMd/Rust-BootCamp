@@ -14,7 +14,8 @@
 // mod utf8_strings;
 // mod hashmap;
 // mod panic;
-mod generics;
+// mod generics;
+mod traits;
 
 fn main() {
     // println!("Hello, world!");
@@ -34,5 +35,6 @@ fn main() {
     // utf8_strings::main();
     // hashmap::main();
     // panic::main();
-    generics::main();
+    // generics::main();
+    traits::main();
 }
