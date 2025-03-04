@@ -16,7 +16,24 @@
 // mod panic;
 // mod generics;
 // mod traits;
-mod lifetimes;
+// mod lifetimes;
+
+enum Shape {
+    Circle(f32),
+    Square(f32),
+    Rectangle(f32, f32),
+}
+
+impl Shape {
+    fn area(self) -> f32{
+        return match self {
+            Shape::Circle(r) => 12.0,
+            Shape::Square(l) => 15.0,
+            Shape::Rectangle(l, r) => 12.0 * 15.0,
+            _ => 20.0,
+        }
+    }
+}
 
 fn main() {
     // println!("Hello, world!");
@@ -38,5 +55,15 @@ fn main() {
     // panic::main();
     // generics::main();
     // traits::main();
-    lifetimes::main();
+    // lifetimes::main();
+    println!("{}", Shape::Square(12.0).area());
+}
+
+fn caluclate_area(s: Shape) -> f32 {
+    return match s {
+        Shape::Circle(r) => 12.0,
+        Shape::Square(l) => 15.0,
+        Shape::Rectangle(l, r) => 12.0 * 15.0,
+        _ => 20.0,
+    }
 }
