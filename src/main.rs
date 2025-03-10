@@ -41,5 +41,6 @@ fn main() {
     // traits::main();
     // lifetimes::main();
     // practice::exercise_1::main();
-    practice::exercise_2::main();
+    // practice::exercise_2::main();
+    practice::exercise_3::main();
 }
