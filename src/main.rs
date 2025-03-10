@@ -19,23 +19,6 @@
 // mod lifetimes;
 mod practice;
 
-enum Shape {
-    Circle(f32),
-    Square(f32),
-    Rectangle(f32, f32),
-}
-
-impl Shape {
-    fn area(self) -> f32{
-        return match self {
-            Shape::Circle(r) => 12.0,
-            Shape::Square(l) => 15.0,
-            Shape::Rectangle(l, r) => 12.0 * 15.0,
-            _ => 20.0,
-        }
-    }
-}
-
 fn main() {
     // println!("Hello, world!");
     // variables::main();
@@ -58,13 +41,4 @@ fn main() {
     // traits::main();
     // lifetimes::main();
     practice::exercise_1::main();
-}
-
-fn caluclate_area(s: Shape) -> f32 {
-    return match s {
-        Shape::Circle(r) => 12.0,
-        Shape::Square(l) => 15.0,
-        Shape::Rectangle(l, r) => 12.0 * 15.0,
-        _ => 20.0,
-    }
 }
