@@ -17,6 +17,7 @@
 // mod generics;
 // mod traits;
 // mod lifetimes;
+mod practice;
 
 enum Shape {
     Circle(f32),
@@ -56,7 +57,7 @@ fn main() {
     // generics::main();
     // traits::main();
     // lifetimes::main();
-    println!("{}", Shape::Square(12.0).area());
+    practice::exercise_1::main();
 }
 
 fn caluclate_area(s: Shape) -> f32 {
