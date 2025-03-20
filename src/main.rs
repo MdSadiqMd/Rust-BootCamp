@@ -18,7 +18,8 @@
 // mod traits;
 // mod lifetimes;
 // mod practice;
-mod serde;
+// mod serde;
+mod borsh;
 
 fn main() {
     // println!("Hello, world!");
@@ -47,5 +48,6 @@ fn main() {
     // practice::exercise_4::main();
     // practice::exercise_5::main();
     // practice::custom_macro::main();
-    serde::main();
+    // serde::main();
+    borsh::main();
 }
