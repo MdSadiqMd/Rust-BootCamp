@@ -19,7 +19,7 @@ pub fn main() {
 
     let x = 5;
     makes_copy(x); // For types like integers, a copy is made, not a move
-    println!("x is still valid: {}", x); // `x` is still valid here
+    println!("x is still valid: {}", x); // `x` is still valid here, ownerships only work for the data structures are on Heap like Strings, Vectors and Hashmaps
 
     // 4. Return values and ownership
     let s6 = gives_ownership();
