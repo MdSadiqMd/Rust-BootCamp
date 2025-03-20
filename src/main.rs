@@ -17,7 +17,8 @@
 // mod generics;
 // mod traits;
 // mod lifetimes;
-mod practice;
+// mod practice;
+mod serde;
 
 fn main() {
     // println!("Hello, world!");
@@ -45,5 +46,6 @@ fn main() {
     // practice::exercise_3::main();
     // practice::exercise_4::main();
     // practice::exercise_5::main();
-    practice::custom_macro::main();
+    // practice::custom_macro::main();
+    serde::main();
 }
