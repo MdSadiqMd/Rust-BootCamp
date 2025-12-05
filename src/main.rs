@@ -19,7 +19,8 @@
 // mod lifetimes;
 // mod practice;
 // mod serde;
-mod borsh;
+// mod borsh;
+mod guessing_game;
 
 fn main() {
     // println!("Hello, world!");
@@ -49,5 +50,6 @@ fn main() {
     // practice::exercise_5::main();
     // practice::custom_macro::main();
     // serde::main();
-    borsh::main();
+    // borsh::main();
+    guessing_game::main();
 }
